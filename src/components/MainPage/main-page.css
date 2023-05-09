@@ -1,0 +1,31 @@
+.main{
+    margin: 0;
+    font-family: 'Nunito', serif;
+}
+
+.main__sign{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6244DF;
+    border-radius: 38px;
+    margin: 0 auto ;
+    width: 220px;
+    height: 50px;
+    border: none;
+}
+
+.main__statistics{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    margin: 100px 0 80px;
+}
+
+.main__img{
+    margin: 0 0 50px 150px;
+}
