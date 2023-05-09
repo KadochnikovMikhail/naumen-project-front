@@ -1,0 +1,58 @@
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 15px);
+    height: calc(100vh - 15px);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), rgba(95, 68, 210, 0.34);
+}
+.auth__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.auth__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.auth__form_input{
+    background: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 38px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.auth__form_button{
+    background: #6244DF;
+    border-radius: 38px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    height: 34px;
+    border: none;
+}
+
+.auth__sign-up-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.auth__sign-up-btn{
+    margin-top: 14px;
+    color: #FFFFFF;
+}

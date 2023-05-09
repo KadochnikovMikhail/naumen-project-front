@@ -4,22 +4,11 @@
   </section>
 </template>
 
-
 <script>
-import MainPage from "./components/MainPage/MainPage";
-
-
 export default {
   name: 'App',
-  data() {
-    return {
-      MainPage: MainPage
-    }
-  },
-  components: {
-    MainPage
-  }
 }
 </script>
 
-<style src="./app.css"></style>
+<style src="./app.css">
+</style>

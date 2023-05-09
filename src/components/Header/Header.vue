@@ -8,7 +8,7 @@
       </select>
       <div class="header__info_support">Теходдержка</div>
     </div>
-    <router-link class="header__auth" to="/auth">Регистрация</router-link>
+    <router-link class="header__auth" to="/sign-up">Регистрация</router-link>
   </section>
 </template>
 
