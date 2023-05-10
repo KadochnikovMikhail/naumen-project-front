@@ -4,7 +4,7 @@
     <component :is="CardsGridComponent"></component>
     <button class="main__sign">Зписаться на стрижку</button>
     <h2 class="main__statistics">Статистика</h2>
-    <img class="main__img" src="@/assets/images/Statistics.png" alt="Statistics"/>
+    <img class="main__img" src="@/assets/images/Statistics.png" alt="Statistics" />
   </section>
 </template>
 
