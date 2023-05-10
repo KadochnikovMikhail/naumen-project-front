@@ -11,9 +11,13 @@
   ],
   "parserOptions": {
     "parser": "@babel/eslint-parser",
-    "ecmaVersion": 2021,
-    "sourceType": "module"
+    "ecmaVersion": 2021
+
   },
+  "plugins": [
+    "@babel"
+  ],
+
   "rules": {
     "vue/component-name-in-template-casing": ["error", "PascalCase"],
     "vue/html-closing-bracket-newline": [
