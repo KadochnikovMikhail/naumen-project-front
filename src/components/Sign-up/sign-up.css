@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc(100vw - 15px);
-    height: calc(100vh - 15px);
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), rgba(95, 68, 210, 0.34);
 }
 .auth__title{
