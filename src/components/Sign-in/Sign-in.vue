@@ -2,8 +2,18 @@
   <section class="auth">
     <h1 class="auth__title">Вход</h1>
     <form class="auth__form">
-      <input class="auth__form_input" />
-      <input class="auth__form_input" />
+      <input class="auth__form_input"
+             type="text"
+             name="login"
+             placeholder="Логин"
+             required
+      >
+      <input class="auth__form_input"
+             type="password"
+             name="password"
+             placeholder="Пароль"
+             required
+      >
       <button class="auth__form_button">Войти</button>
     </form>
 

@@ -1,0 +1,35 @@
+.my-washes{
+    padding-left: 26px;
+}
+
+.my-washes__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.my-washes__upcoming_title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.my-washes__passed_title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.my-washes__upcoming_item{
+    border: 1px solid rgba(95, 68, 210, 0.34);
+    border-radius: 10px;
+    width: 230px;
+    height: 40px;
+}
+
+.my-washes__passed_item{
+    border: 1px solid rgba(95, 68, 210, 0.34);
+    border-radius: 10px;
+    width: 230px;
+    height: 40px;
+}

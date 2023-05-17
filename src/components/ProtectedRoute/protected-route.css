@@ -1,0 +1,32 @@
+.protected-route {
+    display: flex;
+    flex-direction: row;
+}
+
+.protected-route__menu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);;
+    width: 320px;
+    box-sizing: border-box;
+    height: calc(100vh - 42px);
+}
+
+.protected-route__menu_item{
+    padding-left: 60px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.protected-route__menu_item:checked{
+    border-left: 3px solid rgba(118, 89, 235, 0.7);
+}
+
+.protected-route__pages{
+    width: 100%;
+}
