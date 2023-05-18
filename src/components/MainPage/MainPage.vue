@@ -2,7 +2,7 @@
   <section class="main">
     <component :is="HeaderComponent"></component>
     <component :is="CardsGridComponent"></component>
-    <button class="main__sign">Зписаться на стрижку</button>
+    <button class="main__sign">Зписаться на стирку</button>
     <h2 class="main__statistics">Статистика</h2>
     <img class="main__img" src="@/assets/images/Statistics.png" alt="Statistics" />
   </section>

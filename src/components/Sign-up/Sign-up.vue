@@ -3,9 +3,9 @@
   <h1 class="auth__title">Регистрация</h1>
   <form class="auth__form">
     <input class="auth__form_input"
-           type="text"
-           name="login"
-           placeholder="Логин"
+           type="email"
+           name="email"
+           placeholder="Почта"
            required
     >
     <input class="auth__form_input"

@@ -30,6 +30,7 @@
     height: 40px;
     width: 100%;
     margin-bottom: 24px;
+    padding-left: 10px;
 }
 
 .auth__form_button{
