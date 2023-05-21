@@ -6,6 +6,7 @@ import ProtectedRoute from '@/components/ProtectedRoute/ProtectedRoute.vue';
 import Profile from '@/components/Profile/Profile.vue';
 import MyWashes from '@/components/MyWashes/MyWashes.vue';
 import ControlPanel from '@/components/ControlPanel/ControlPanel.vue'
+import LaundryAppointment from '@/components/LaundryAppointment/LaundryAppointment.vue';
 
 const routes = [
     {
@@ -22,6 +23,11 @@ const routes = [
         path: '/sign-in',
         component: SignIn,
         name: 'SignIn'
+    },
+    {
+        path: '/laundry-appointment',
+        component: LaundryAppointment,
+        name: 'LaundryAppointment'
     },
     {
         path: '/protected-route',

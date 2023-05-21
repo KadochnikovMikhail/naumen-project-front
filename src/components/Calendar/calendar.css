@@ -1,0 +1,134 @@
+.calendar{
+    width: 80%;
+    margin: 0 auto 50px;
+    font-family: Nunito, serif !important;
+}
+
+
+.fc-scroller::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.fc .fc-timegrid-slot-minor {
+    border-top-style: none;
+    border-right: none;
+}
+
+.fc-scrollgrid-liquid {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fc .fc-scrollgrid {
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+.fc .fc-scrollgrid-section>* {
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.fc .fc-timegrid-axis-cushion, .fc .fc-timegrid-slot-label-cushion {
+    padding: 0 4px 0 10px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.fc-col-header-cell-cushion{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.fc-toolbar-title{
+    font-weight: normal;
+    font-size: 1em !important;
+}
+
+.fc-today-button{
+    font-size: 10px !important;
+    width: 70px !important;
+}
+.fc .fc-button{
+    padding: 0;
+}
+.fc-button-primary{
+    padding: 0 4px !important;
+}
+
+.fc .fc-button .fc-icon {
+    font-size: 14px !important;
+    margin-bottom: 2px;
+}
+.fc .fc-button-primary{
+    background-color: rgba(0, 69, 148, 1) !important;
+    border: none !important;
+}
+
+.fc-today-button {
+    border: none;
+    outline: none;
+}
+.fc-next-button {
+    border: none;
+    outline: none;
+}
+.fc-button:focus{
+    box-shadow: none !important;
+}
+
+.fc-v-event {
+    background-color: rgba(0, 69, 148, 1);
+    border-left: 3px solid #3788d8;
+    display: block;
+}
+
+.fc-timegrid-event .fc-event-time {
+    margin: 10px 0 2px 2px;
+    font-size: 10px;
+}
+.fc-v-event .fc-event-title {
+    font-size: 10px;
+}
+.fc-scrollgrid-section-header {
+    height: 100px;
+}
+.event-card {
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 999;
+    transform: translateY(125%);
+    background-color: rgba(0, 69, 148, 1);
+    color: white;
+    width: 60px;
+    white-space: nowrap;
+}
+.event-card__title{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.event-card__info{
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.event-card__btn{
+    display: block;
+    border: none;
+    background: none;
+    margin: 0 2px 0 auto;
+    border-radius: 0.25em;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 0;
+}
+.event-card__btn_img{
+    width: 14px;
+}
+
+.fc-event-container .fc-event {
+    position: relative;
+    z-index: 1;
+}
